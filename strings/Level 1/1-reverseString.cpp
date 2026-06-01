@@ -4,6 +4,7 @@
 using namespace std;
 
 string reverseString(const string &s){
+    if(s.empty()) return "";
     // string res = "";
     // for(int i=s.length()-1; i>=0; i--) {
     //     res +=s[i];
@@ -17,6 +18,7 @@ string reverseString(const string &s){
         swap(res[start++], res[end--]);
     }
     cout<<"Reversed "<< s <<" string is "<<res<<endl;
+    return res; 
 }
 
 int main() {

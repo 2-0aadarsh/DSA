@@ -36,9 +36,13 @@ int consonants(string &str) {
 
 
 int main(){
-    string s = "Hello there, this is Aadarsh";
-    cout<<"Number of vowels in string "<<s<<" is "<<countVowels(s)<<endl;
-    cout<<"Number of consonants in string "<<s<<" is "<<consonants(s)<<endl;
+    // string s = "Hello there, this is Aadarsh";
+    // cout<<"Number of vowels in string "<<s<<" is "<<countVowels(s)<<endl;
+    // cout<<"Number of consonants in string "<<s<<" is "<<consonants(s)<<endl;
+
+    string s = "A";
+    char ch = tolower(s[0]);
+    cout<<ch<<endl;
 
     // string s = "";
     // int ascii = (int)s[0];
