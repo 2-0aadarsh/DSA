@@ -40,7 +40,6 @@ void printLinkedList(Node* head) {
         temp = temp->next;
     }
 }
-
 class Solution {
 public:
     // Only solve here
